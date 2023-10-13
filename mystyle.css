@@ -1,0 +1,146 @@
+body {
+    background-image: url(Mountain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+
+}
+
+.rhey {
+    float: left;
+    border: 5px solid #ffff;
+    border-radius: 20px;
+    margin-right: 15px;
+    align-items: center;
+    width: auto;
+    height: 450px;
+    transition: width 2s, height 2s, transform 2s
+}
+
+.rhey:hover {
+  width: auto;
+  height: 650px;
+  transform:scale(1)
+}
+
+.binuslogo {
+    width: 8%;
+    height: auto;
+    margin: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+}
+
+.text {
+    color: #ffff;
+    font-family:'Poppins', sans-serif;
+     
+}
+.status{
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+h1 {
+  font-size: 50px;
+  margin-bottom: -20px;
+}
+
+
+
+.wrapper {
+    
+    
+}
+
+#navbar {
+    list-style-type: none;
+    margin-left: 200px ;
+    margin-top: 40px;
+    
+    font-family: 'Poppins', sans-serif;
+    font-size: 120%;
+    
+  }
+ 
+ .navbar {
+    position:fixed;
+    top: 0;
+    left: 0;
+    
+    
+}
+
+li {
+    float: left;
+  }
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+li a:hover {
+  border-bottom: 3px solid;
+  padding-bottom: 4px;
+  }
+
+
+
+li.dropdown {
+    display: inline-block;
+  }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+.dropdown-content a:hover {background-color: #f1f1f1;}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+.contain {
+    display: flex;
+    align-items: center;
+}
+
+
+.wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.details {
+    display: flex;
+}
+
+.gender-section,
+.education-section {
+    margin-right: 50px;
+}
